@@ -1,0 +1,24 @@
+{
+  "name": "testeroke-json-server",
+  "version": "1.0.0",
+  "description": "hi!",
+  "main": "server.js",
+  "scripts": {
+    "start:dev":"nodemon server.json",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basicrangga/testeroke.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basicrangga/testeroke/issues"
+  },
+  "homepage": "https://github.com/basicrangga/testeroke#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "json-server": "^0.17.0"
+  }
+}
