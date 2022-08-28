@@ -2,7 +2,7 @@ const supertest = require("supertest")
 const BASEURL = "localhost:3000"
 
 module.exports = class RequestWrapper{
-  static request(baseUrl){
+  static request(baseUrl=BASEURL){
     return supertest(baseUrl)
   }
   static async get(url){

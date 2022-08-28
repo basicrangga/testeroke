@@ -20,7 +20,7 @@ describe('Pokemon index', () => {
     expect(keys).toHaveLength(2)
   });
 
-  it.only('should have (name,url) item keys',async()=>{
+  it('should have (name,url) item keys',async()=>{
     let responseData = await requestWrapper.get(path)
     let dataResult = responseData.results
     expect(dataResult.length).toBeGreaterThan(0)
